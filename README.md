@@ -6,7 +6,7 @@ Tutorial of mBJ calculation in VASP
 * (II) PBE band calculation based on the relaxed structure
   * (a) self-consistent (SCF) calculation [10_scf_cal].
   * (b) band calculation based on converged charge density at (II-a) [11_band_cal].
-    * Using vaspkitto generate KPATH.in
+    * Use vaspkit to generate KPATH.in
     ```shell
     vaspkit -task 303
     mv KPATH.in KPOINTS
