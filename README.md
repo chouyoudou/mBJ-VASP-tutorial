@@ -35,7 +35,6 @@ Tutorial of mBJ calculation in VASP
   ```
   
   * (c) Post-processing for band ploting
-    * Delete the kpoints with weight in EIGENVAL
     * Copy the Line-Mode KPOINTS from (II-b)
     * Ploting 
     ```shell
