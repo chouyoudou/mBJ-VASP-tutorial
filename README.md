@@ -19,6 +19,7 @@ https://vaspkit.com/
   * (a) PBE SCF calculation with zero weight k-points.
     * (1)Copy the IBZKPT at step (II-a) into KPOINTS
     * (2) Find all k-points from OUTCAR at step (II-b) and add to the KPOINTS with zero weight.
+    * Be careful that you should copy the k-point 'k-points in reciprocal lattice and weights' instead of 'k-points in units of 2pi/SCALE and weight' in OUTCAR
     ### INCAR
     ```shell
     ISTART=0
