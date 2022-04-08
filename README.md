@@ -40,6 +40,7 @@ https://vaspkit.com/
   
   * (c) Post-processing for band ploting
     * Copy the Line-Mode KPOINTS from (II-b)
+    * Delete the k points with weight in EIGENVAL
     * Ploting 
     ```shell
     vaspkit -task 211
